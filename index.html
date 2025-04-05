@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cricket Fan Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://images.unsplash.com/photo-1522125670776-3c7abb882bc2') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        section {
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .video-container video {
+            width: 80%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        input, button {
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .form-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Players</a>
+        <a href="#">Matches</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Welcome to the Cricket World</h1>
+        <p>Your destination for cricket fans, players, and match updates.</p>
+    </header>
+
+    <section>
+        <h2>About Cricket</h2>
+        <p>Cricket is a globally loved sport, uniting fans across continents. Whether it's T20 thrillers or classic Test matches, cricket delivers excitement, skill, and team spirit.</p>
+        <button onclick="alert('Let’s Play Cricket!')">Join the Team</button>
+    </section>
+
+    <section class="video-container">
+        <h2>Latest Match Highlights</h2>
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section class="form-container">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to get match schedules and news:</p>
+        <input type="email" placeholder="Enter your email">
+        <br>
+        <button>Subscribe</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cricket Fan Page. Powered by ChatGPT.</p>
+    </footer>
+
+</body>
+</html>
